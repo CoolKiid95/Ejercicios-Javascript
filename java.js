@@ -28,13 +28,43 @@
 // e. Si el usuario no cumple con ninguna condición, se le debe informar que no
 // recibe ningún premio.
 
-let edad = prompt ("ingresa tu edad")
-let genero  = prompt ("ingresa tu genero")
 
-if (edad < 10 && genero === "mujer") {
-    console.log("Recibe juego y pizza hawaiana");
+function prize() {
     
-} else if (edad > 18 ) {
-    console.log("recibe cerveza");
-    
+    let edad = prompt ("ingresa tu edad")
+    let genero  = prompt ("ingresa tu genero")
+    if (edad <= 10) {
+        console.log("Toma un juguito");
+        
+    } else if (edad >= 18 ) {
+        console.log("Toma una chela");
+
+        if (genero === "mujer") {
+            console.log("con una pizza Hawaiana.");
+        } else if (genero === "hombre") {
+            console.log("con una pizza de tres carnes");
+        } 
+    } else {
+        console.log("Paila prro, no hay nada mas para ud");
+    }    
 }
+prize();
+
+
+
+
+// Crear un algoritmo que permita al usuario seleccionar productos de un menú
+// escribiendo el nombre del producto. Cada selección sumará el precio del
+// producto al total, hasta que el usuario escriba "pagar". Al finalizar, el programa
+// mostrará el total a pagar.
+// Las opciones del menú puede ser definido por el programador
+// Pista: Se puede realizar con 2 arrays o con 1 array de objetos
+//hacer 1 array de objeto, donde cada objeto tiene nombre del producto y valor. 
+
+
+
+
+
+// Crear un algoritmo que muestre la tabla de multiplicar de un número ingresado por
+// el usuario hasta un límite también especificado por el usuario. Además, el
+// programa debe mostrar el total de las multiplicaciones.
