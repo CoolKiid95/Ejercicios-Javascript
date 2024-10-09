@@ -29,26 +29,26 @@
 // recibe ningún premio.
 
 
-function prize() {
+// function prize() {
     
-    let edad = prompt ("ingresa tu edad")
-    let genero  = prompt ("ingresa tu genero")
-    if (edad <= 10) {
-        console.log("Toma un juguito");
+//     let edad = prompt ("ingresa tu edad")
+//     let genero  = prompt ("ingresa tu genero hombre/mujer")
+//     if (edad <= 10 && genero === "mujer") {
+//         console.log("Toma un juguito con una pizza Hawaiana");
         
-    } else if (edad >= 18 ) {
-        console.log("Toma una chela");
+//     } else if (edad >= 18 && genero === "mujer") {
+//         console.log("Toma una chela con una pizza hawaiana");
 
-        if (genero === "mujer") {
-            console.log("con una pizza Hawaiana.");
-        } else if (genero === "hombre") {
-            console.log("con una pizza de tres carnes");
-        } 
-    } else {
-        console.log("Paila prro, no hay nada mas para ud");
-    }    
-}
-prize();
+       
+//     } else  if (edad <= 10 && genero === "hombre") {
+//         console.log("Toma un juguito con una pizza de tres carnes.");
+//     } else if (edad >= 18 && genero === "hombre") {
+//         console.log("Toma una chelita con una pizza de tres carnes");
+//     } else    {
+//         console.log("Paila prro, no hay nada mas para ud");
+//     }    
+// }
+// prize();
 
 
 
@@ -61,6 +61,11 @@ prize();
 // Pista: Se puede realizar con 2 arrays o con 1 array de objetos
 //hacer 1 array de objeto, donde cada objeto tiene nombre del producto y valor. 
 
+// function menu() {
+//     let items = ["hamburguesa", "pizza", "perro caliente", "lasagna","arepa rellena" ]
+//     let price = [25000, 20000, 18000, 25000, 15000]
+
+// }
 
 
 
@@ -68,3 +73,21 @@ prize();
 // Crear un algoritmo que muestre la tabla de multiplicar de un número ingresado por
 // el usuario hasta un límite también especificado por el usuario. Además, el
 // programa debe mostrar el total de las multiplicaciones.
+
+
+
+
+// function multiplicar() {
+//     let numero = prompt("Ingresa un número para multiplicar:");    
+//     let limite = prompt("ingresa el limite");
+//     let total = 0;
+//     for (let i = 1; i <= limite; i++) {
+//         let resultado = numero * i;
+//         total += resultado;
+//         console.log(`${numero} x ${i} = ${resultado}`);
+//     }
+
+//     console.log(`Total de las multiplicaciones: ${total}`);
+// }
+
+// multiplicar();
