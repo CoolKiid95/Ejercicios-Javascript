@@ -13,9 +13,9 @@
 // impar.
 // let numbr = prompt ("Ingresa un numero")
 // if (numbr % 2 === 0) { 
-//     console.log("Par");
+//     alert("Par");
 // } else {
-//     console.log("impar");
+//     alert("impar");
 // }
 
 // La pizzería Pepitos requiere un algoritmo que permita informarle a los usuarios si
@@ -84,10 +84,33 @@
 //     for (let i = 1; i <= limite; i++) {
 //         let resultado = numero * i;
 //         total += resultado;
-//         console.log(`${numero} x ${i} = ${resultado}`);
+//         alert(`${numero} x ${i} = ${resultado}`);
 //     }
 
-//     console.log(`Total de las multiplicaciones: ${total}`);
+//     alert(`Total de las multiplicaciones: ${total}`);
 // }
 
 // multiplicar();
+
+
+
+// Crear un algoritmo que determine el valor de matrícula ($1.000.000) a pagar por
+// un estudiante basado en su promedio.
+// a. Si el promedio fue menor a 3 no se le descuenta nada.
+// b. Cuando el promedio sea entre 3 y 4 se le descuenta el 5%
+// c. Cuando el promedio sea mayor que 4, se le descuenta 50%
+
+// function descuento() {
+//     let promedio = prompt ("Ingresa el promedio")
+//     let matricula = 1000000
+
+//     if (promedio < 3 ) { 
+//         alert(`El valor de la matricula es ${matricula}`);    
+//     } else if (promedio >= 3 && promedio <=4) {
+//         alert(`El valor de la matricula es ${(matricula)-(matricula*0.05)}`);
+//     } else if (promedio > 4) {
+//         alert(`El valor de la matricula es ${matricula*0.5}`);
+        
+//     }
+// }
+// descuento();
